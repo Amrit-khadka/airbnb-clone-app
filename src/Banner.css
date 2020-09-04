@@ -8,12 +8,28 @@
 .banner__info{
   background-color: black;
   color: white;
-  padding-top: 25vh;
+  padding-top: 15vh;
   padding-left:50px;
   padding-right: 50px;
   padding-bottom: 40px;
   width: 300px;
-  /* padding-right: 25vh;
-  padding-bottom: 25vh; */
+}
+
+.banner__info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+}
+
+.banner__search{
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__searchButton{
+  background-color: white !important;
+  color: #ff7779 !important;
+  font-weight: 900;
+  text-transform: inherit !important;
 
 }
